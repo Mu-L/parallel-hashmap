@@ -5,6 +5,12 @@
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/licenses/Apache-2.0) [![Linux](https://github.com/greg7mdp/parallel-hashmap/actions/workflows/linux.yml/badge.svg)](https://github.com/greg7mdp/parallel-hashmap/actions/workflows/linux.yml)  [![MacOS](https://github.com/greg7mdp/parallel-hashmap/actions/workflows/macos.yml/badge.svg)](https://github.com/greg7mdp/parallel-hashmap/actions/workflows/macos.yml) [![Windows](https://github.com/greg7mdp/parallel-hashmap/actions/workflows/windows.yml/badge.svg)](https://github.com/greg7mdp/parallel-hashmap/actions/workflows/windows.yml)
 
+## Moving to GTL
+
+We encourage phmap users to switch to [gtl](https://github.com/greg7mdp/gtl) if possible. [gtl](https://github.com/greg7mdp/gtl) provides the same functionality as this repository, but requires C++20 or above. 
+
+Eventually, support for issues and new features will move exclusively to [gtl](https://github.com/greg7mdp/gtl).
+
 ## Overview
 
 This repository aims to provide a set of excellent **hash map** implementations, as well as a **btree** alternative to std::map and std::set, with the following characteristics:
